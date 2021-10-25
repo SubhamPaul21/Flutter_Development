@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_app/answer.dart';
 
 import './question.dart';
+import './answer.dart';
 
 class Quiz extends StatelessWidget {
   final List<Map<String, Object>> questionMap;
