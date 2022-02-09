@@ -8,4 +8,4 @@
 - Learning about changing the look of your app's UI using themes
 
 
-![nameGenerator](https://user-images.githubusercontent.com/28836100/153188451-7ee4bd7a-8610-476d-8673-36b3d00a6a2b.gif)
+![nameGenerator](https://user-images.githubusercontent.com/28836100/153196489-151909bc-46b4-4a72-a384-d67f0ce37f22.gif)
