@@ -1,7 +1,12 @@
+import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    const MaterialApp(
+      home: MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -9,6 +14,16 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    WordPair _randomWord = WordPair.random();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Startup Name Generator"),
+      ),
+      body: Center(
+        child: Text(
+          _randomWord.asPascalCase,
+        ),
+      ),
+    );
   }
 }
