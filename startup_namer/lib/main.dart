@@ -1,5 +1,5 @@
-import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
+import 'package:startup_namer/util/random_word.dart';
 
 void main() {
   runApp(
@@ -14,15 +14,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    WordPair _randomWord = WordPair.random();
     return Scaffold(
       appBar: AppBar(
         title: const Text("Startup Name Generator"),
       ),
-      body: Center(
-        child: Text(
-          _randomWord.asPascalCase,
-        ),
+      body: const Center(
+        child: RandomWords(),
       ),
     );
   }
